@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <section class="box">
+            <pre id="output"></pre>
+        </section>
+        <section class="controlPanel">
+            <input id="nameSet" type="text" placeholder="Object name">
+            <input id="xPointSet" type="text" placeholder="X point">
+            <input id="yPointSet" type="text" placeholder="Y point">
+            <input type="button" onclick="setObjectsByXY_onclick()" value="Set">
+
+            <input id="xPointGet" type="text" placeholder="X point">
+            <input id="yPointGet" type="text" placeholder="Y point">
+            <input id="nameGet" type="text" placeholder="Name will be here">
+
+            <input type="button" onclick="getObjectByXY_onclick()" value="Get">
+
+            <input id="nameUpdate" type="text" placeholder="Object name">
+            <input id="xPointUpdate" type="text" placeholder="New X point">
+            <input id="yPointUpdate" type="text" placeholder="New Y point">
+
+            <input type="button" onclick="updateObjectXY_onclick()" value="Update">
+
+            <input id="nameDistance" type="text" placeholder="Object name">
+            <input id="distance" type="text" placeholder="distance">
+            <input id="angle" type="text" placeholder="angle">
+
+            <input type="button" onclick="setObjectPositionByDistance_onclick()" value="Move">
+        </section>
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>

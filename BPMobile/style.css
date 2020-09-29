@@ -1,0 +1,27 @@
+.main-container {
+display: flex;
+}
+
+.box {
+margin: 15px;
+width: 1300px;
+height: 800px;
+border: 5px dashed gray;
+border-radius: 8px;
+background: lightyellow;
+overflow: auto;
+}
+
+#output {
+display: block;
+font-family: monospace, Verdana, Arial;
+white-space: pre;
+margin: 40px 40px;
+font-size: 15px;
+letter-spacing: 5px;
+}
+
+input[type="text"] {
+display: flex;
+margin: 15px 0;
+}
